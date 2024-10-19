@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 
 function StackedExample() {
   return (
-    <Nav defaultActiveKey="/home" className=" navbar" style={{ width: '12%',height:'100vh'}}>
+    <Nav defaultActiveKey="/home" className=" navbar" style={{ width: '13%',height:'100vh'}}>
       <Image src={avatar} className='navAvatar' style={{width:'100%'}}roundedCircle />
       <Nav.Link className="navItem" href="/home">
         Quest Board

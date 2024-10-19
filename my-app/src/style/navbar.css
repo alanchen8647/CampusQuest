@@ -4,14 +4,14 @@
     background-color: #D9D9D9;
     height: 100%;
     color: black;
-    position: static;
+    position: fixed;
     font-size:10px;
 }
 
 .navAvatar {
     height:auto;
     max-width: 60%;
-    margin:10px auto;
+    margin:10px auto 5px auto;
 }
 
 .navItem{
@@ -24,7 +24,9 @@
 }
 
 .navIcon{
-    max-width:70%;
+    max-width:100%;
     height:auto;
     border-radius: 15px;
+    margin:0;
+    padding:0;
 }
