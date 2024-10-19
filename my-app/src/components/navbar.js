@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Image from 'react-bootstrap/Image';
@@ -7,8 +6,8 @@ import '../style/navbar.css';
 
 function StackedExample() {
   return (
-    <Nav defaultActiveKey="/home" className="flex-column" style={{ width: '15%',textAlign:'center'}}>
-      <Image src={avatar} style={{width:'100%'}}roundedCircle />
+    <Nav defaultActiveKey="/home" className=" navbar" style={{ width: '15%',height:'100%'}}>
+      <Image src={avatar} className='navAvatar' style={{width:'100%'}}roundedCircle />
       <Nav.Link href="/home">Quest Board</Nav.Link>
       <Nav.Link eventKey="link-1">Community</Nav.Link>
       <Nav.Link eventKey="link-2">My Advanture</Nav.Link>
