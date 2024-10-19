@@ -2,7 +2,7 @@
     text-align: center;
     background-color: #D9D9D9;
     color: black !important;
-    position: static;
+    position: fixed;
     font-size:15px;
 }
 

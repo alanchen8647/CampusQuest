@@ -5,3 +5,16 @@
 .PageContainer{
   display: flex;
 }
+
+.recentView{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+
+h1 {
+  font-family: 'inter', sans-serif;
+  font-weight: thin;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

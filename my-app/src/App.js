@@ -7,7 +7,10 @@ import './App.css';
 function App() {
   return (<div className='PageContainer'>
     <NavBar/>
-    <RecentView/>
+    <div className="recentView">
+      <h1>Recently Viewed</h1>
+      <RecentView/>
+    </div>
     </div>
   );
 }
