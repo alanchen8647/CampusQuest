@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import NavBar from './components/navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function HelloWorld() {
-  return <h1 className="greeting">Hello, world!</h1>;
-}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <HelloWorld></HelloWorld>
+     <NavBar />
   </React.StrictMode>
 );
 
