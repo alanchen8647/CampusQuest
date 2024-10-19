@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import NavBar from './components/navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import RecentView from './components/recentView';
 import App from "./App"
 
 
