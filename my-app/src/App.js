@@ -5,10 +5,10 @@ import RecentView from './components/recentView';
 import './App.css';
 
 function App() {
-  return (<>
+  return (<div className='PageContainer'>
     <NavBar/>
     <RecentView/>
-    </>
+    </div>
   );
 }
 

@@ -4,10 +4,15 @@
     background-color: #D9D9D9;
     height: 100%;
     color: black;
+    position: static;
 }
 
 .navAvatar {
     height:auto;
     max-width: 60%;
     margin:50px auto;
+}
+
+.navItem{
+    margin: 2px auto !important;
 }

@@ -6,12 +6,12 @@ import '../style/navbar.css';
 
 function StackedExample() {
   return (
-    <Nav defaultActiveKey="/home" className=" navbar" style={{ width: '15%',height:'100%'}}>
+    <Nav defaultActiveKey="/home" className=" navbar" style={{ width: '15%',height:'100vh'}}>
       <Image src={avatar} className='navAvatar' style={{width:'100%'}}roundedCircle />
-      <Nav.Link href="/home">Quest Board</Nav.Link>
-      <Nav.Link eventKey="link-1">Community</Nav.Link>
-      <Nav.Link eventKey="link-2">My Advanture</Nav.Link>
-      <Nav.Link eventKey="link-3">Schedule</Nav.Link>
+      <Nav.Link className="navItem" href="/home">Quest Board</Nav.Link>
+      <Nav.Link className="navItem" eventKey="link-1">Community</Nav.Link>
+      <Nav.Link className="navItem" eventKey="link-2">My Advanture</Nav.Link>
+      <Nav.Link className="navItem" eventKey="link-3">Schedule</Nav.Link>
     </Nav>
   );
 }
