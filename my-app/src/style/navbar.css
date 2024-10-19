@@ -1,11 +1,9 @@
 .navbar{
-    max-width: 20%;
     text-align: center;
     background-color: #D9D9D9;
-    height: 100%;
-    color: black;
-    position: fixed;
-    font-size:10px;
+    color: black !important;
+    position: static;
+    font-size:15px;
 }
 
 .navAvatar {
@@ -21,10 +19,11 @@
     align-items: center; 
     justify-content: center;
     flex-wrap: wrap;
+    text-decoration: none;
 }
 
 .navIcon{
-    max-width:100%;
+    max-width:80%;
     height:auto;
     border-radius: 15px;
     margin:0;

@@ -26,7 +26,9 @@ function StackedExample() {
         Schedule
         <Image src={questBoard} className='navIcon'/>
       </Nav.Link>
-      <Button variant="primary" className='navItem'>Login</Button>{' '}
+      <Nav.Link className="navItem" eventKey="link-3">
+        <Button variant="primary" className='navItem'>Login</Button>{' '}
+      </Nav.Link>
     </Nav>
   );
 }
