@@ -8,11 +8,12 @@
     display:flex;
     flex-direction: row;
     max-height: fit-content;
-    margin-bottom: 2em;
+    margin-bottom: 2em !important;
 }
 
 .body {
     padding: 0;
+    margin-left: 1em !important;
 }
 
 .title {
@@ -23,10 +24,12 @@
 .container {
     display: flex;
     gap: 4em;
+    padding: 0 !important;
 }
 
 .size {
     color: #5CA032;
     font-size: 2em;
     font-weight: bold;
+    margin-left: 1em;
 }

@@ -1,38 +1,13 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.box{
-    
-    border-radius: 20px;
-    height: 160px;
-    
-}
 
 .row {
-    display:flex;
-    flex-direction: row;
-    max-height: fit-content;
+    margin: 0 !important;
 }
 
-.body {
-    padding: 0;
-}
-
-.title {
-    text-align: center;
-    font-size: 1.2em;
-}
-
-.container {
-    display: flex;
-    gap: 4em;
-}
-
-
-.size {
-    color: #5CA032;
-    font-size: 2em;
-    font-weight: bold;
+.card-img {
+    margin: 10px 5px 10px 5px;
 }
