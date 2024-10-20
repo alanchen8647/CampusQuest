@@ -10,7 +10,7 @@ function Hello(){
 export default function RecentView() { 
     return ( 
             <div className="row">
-                <div class="col-sm">
+                <div className="col-sm">
                 <Card onClick={Hello} style={{ width: '100%', height: '300px', cursor: "pointer" }}> 
                 <Card.Img variant="top" src={quest} style={{width:'100%', height: '70%'}}/> 
                 <Card.Body className='body'> 
@@ -31,7 +31,7 @@ export default function RecentView() {
                 </Card>
                 </div>
 
-                <div class="col-sm">
+                <div className="col-sm">
                 <Card style={{ width: '100%', height: '300px'}}> 
                 <Card.Img variant="top" src={quest} style={{width:'100%', height: '70%'}}/> 
                 <Card.Body className='body'> 
@@ -52,7 +52,7 @@ export default function RecentView() {
                 </Card>
                 </div>
 
-                <div class="col-sm">
+                <div className="col-sm">
                 <Card style={{ width: '100%', height: '300px'}}> 
                 <Card.Img variant="top" src={quest} style={{width:'100%', height: '70%'}}/> 
                 <Card.Body className='body'> 
