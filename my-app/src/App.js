@@ -1,4 +1,3 @@
-
 import NavBar from './components/navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RecentView from './components/recentView.js';
@@ -8,6 +7,7 @@ import AdvantureSchedule from './components/advantureSchedule.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import QuestList from './components/questlist.js';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <Col xs={7}>
         <h1>Recently Viewed</h1>
         <RecentView/>
+        <QuestList/>  
       </Col>
       <Col>
         <EventCreater/>
