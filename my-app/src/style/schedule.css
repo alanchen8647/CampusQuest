@@ -1,0 +1,22 @@
+
+
+.schedule{
+    border: 1px black solid;
+    border-radius:15px;
+    padding-top:10px;
+    padding-bottom:20px;
+    width:90%;
+    margin-left:0 !important;
+}
+
+.ScheduleTitle{
+    text-align: center;
+}
+
+.scheduleBody{
+    margin:auto;
+}
+
+.Describe{
+    font-weight: bold;
+}

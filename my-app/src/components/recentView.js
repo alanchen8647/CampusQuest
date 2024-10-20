@@ -62,7 +62,7 @@ export default function RecentView() {
                             <div className='author'>
                                 By Alan Chen 
                                 <br/>
-                                Posted 30 min ago
+                                Posted 30 min ago   
                             </div>
                             <div className='size'>
                                 1/4

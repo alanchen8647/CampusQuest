@@ -5,11 +5,15 @@
 }
 
 .createEvent {
+    border:1px black solid;
     background-color: #D9D9D9;
-    border: none;
     height: 77px;
-    width: 377px;
+    width: 90%;
     border-radius: 15px;
     font-family: 'iceland';
     font-size: 24px;
+    margin-top:97px;
+    margin-left:auto;
+    margin-bottom: 10px;
+    margin-right:auto;
 }
