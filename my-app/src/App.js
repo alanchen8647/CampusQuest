@@ -3,6 +3,7 @@ import NavBar from './components/navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RecentView from './components/recentView.js';
 import './App.css';
+import EventCreater from './components/eventCreater.js';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -17,7 +18,9 @@ function App() {
         <h1>Recently Viewed</h1>
         <RecentView/>
       </Col>
-      <Col>3 of 3</Col>
+      <Col>
+        <EventCreater/>
+      </Col>
     </Row>
   </Container>
   
