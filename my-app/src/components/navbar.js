@@ -14,6 +14,7 @@ function StackedExample() {
         Quest Board
         <Image src={questBoard} className='navIcon'/>
       </Nav.Link>
+      
       <Nav.Link className="navItem" eventKey="link-1">
         Community
         <Image src={questBoard} className='navIcon'/>
@@ -27,7 +28,7 @@ function StackedExample() {
         <Image src={questBoard} className='navIcon'/>
       </Nav.Link>
       <Nav.Link className="navItem" eventKey="link-3">
-        <Button variant="primary" className='navItem'>Login</Button>{' '}
+        <Button variant="primary" className='navItem navIcon' style={{}}>Login</Button>{' '}
       </Nav.Link>
     </Nav>
   );

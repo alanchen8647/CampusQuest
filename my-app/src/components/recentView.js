@@ -3,11 +3,15 @@ import Card from 'react-bootstrap/Card';
 import quest from '../images/quest.jpg';
 import '../style/recentView.css';
 
+function Hello(){
+    console.log("HelloWorld");
+}
+
 export default function RecentView() { 
     return ( 
             <div className="row">
                 <div class="col-sm">
-                <Card style={{ width: '100%', height: '300px'}}> 
+                <Card onClick={Hello} style={{ width: '100%', height: '300px', cursor: "pointer" }}> 
                 <Card.Img variant="top" src={quest} style={{width:'100%', height: '70%'}}/> 
                 <Card.Body className='body'> 
                     <Card.Title className='title'>Looking for Study Buddies</Card.Title> 

@@ -14,16 +14,18 @@
 
 .navItem{
     margin: 2px auto !important;
-    max-width: 70%;
+    max-width: 60%;
     display: flex;
     align-items: center; 
     justify-content: center;
     flex-wrap: wrap;
     text-decoration: none;
+    color:black;
 }
 
 .navIcon{
     max-width:80%;
+    min-width:100px !important;
     height:auto;
     border-radius: 15px;
     margin:0;
