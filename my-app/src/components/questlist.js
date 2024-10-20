@@ -1,16 +1,19 @@
 import React from 'react' 
 import '../style/questlist.css';
+import questImage from '../images/image.jpg';
 import Card from 'react-bootstrap/Card';
 
 export default function QuestList() {
     return (
-      <Card style={{width: '100%', height: '175px' }}>
-        <Card.Body>
-          <Card.Title>Looking for companions for a museum trip to Metropolis on 10/12 2:00PM!</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
+      <Card className="box" style={{width: '100%', height: '175px'}}>
+        <Card.Body className='row'>
+        <div className='col-3'> 
+        <Card.Img variant="top" src={questImage} style={{width:'18%', height: '70%'}}/> 
+        </div>
+        <div className='col-9'> 
+        Some text
+        </div>
+
          
         </Card.Body>
       </Card>

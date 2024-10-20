@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.box{
+    
+    border-radius: 20px;
+    height: 160px;
+    
+}
 
 .row {
     display:flex;
@@ -23,6 +29,7 @@
     display: flex;
     gap: 4em;
 }
+
 
 .size {
     color: #5CA032;
